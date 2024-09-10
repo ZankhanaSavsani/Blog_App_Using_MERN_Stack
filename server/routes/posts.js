@@ -9,7 +9,8 @@ const {
     updatePost, 
     deletePost, 
     likePost 
-} = require('../controllers/posts');
+} = require('../controllers/posts'); // Ensure this path is correct
+
 const { protect } = require('../middleware/auth');
 
 // @route   POST /api/posts
